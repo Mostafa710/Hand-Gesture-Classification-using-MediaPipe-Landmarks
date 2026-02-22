@@ -1,6 +1,0 @@
-aliases:
-  Production: '1'
-creation_timestamp: 1771769946026
-description: Random forest classifier with 100 estimators.
-last_updated_timestamp: 1771769946111
-name: RF100

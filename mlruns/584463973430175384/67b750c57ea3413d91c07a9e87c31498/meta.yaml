@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/584463973430175384/67b750c57ea3413d91c07a9e87c31498/artifacts
+end_time: 1771774736724
+entry_point_name: ''
+experiment_id: '584463973430175384'
+lifecycle_stage: active
+run_id: 67b750c57ea3413d91c07a9e87c31498
+run_name: SVC
+run_uuid: 67b750c57ea3413d91c07a9e87c31498
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771774673332
+status: 3
+tags: []
+user_id: CARNIVAL

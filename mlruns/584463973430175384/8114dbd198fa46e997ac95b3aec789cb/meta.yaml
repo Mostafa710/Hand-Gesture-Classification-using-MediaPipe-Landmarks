@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/584463973430175384/8114dbd198fa46e997ac95b3aec789cb/artifacts
+deleted_time: 1771774481176
+end_time: 1771774475368
+entry_point_name: ''
+experiment_id: '584463973430175384'
+lifecycle_stage: deleted
+run_id: 8114dbd198fa46e997ac95b3aec789cb
+run_name: RandomForestClassifier
+run_uuid: 8114dbd198fa46e997ac95b3aec789cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771774402121
+status: 3
+tags: []
+user_id: CARNIVAL
