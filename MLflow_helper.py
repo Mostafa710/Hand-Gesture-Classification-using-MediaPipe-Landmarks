@@ -4,6 +4,8 @@ import mlflow.sklearn
 import mlflow
 import pandas as pd
 
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+
 def create_experiment(experiment_name):
     """Sets the active experiment. Creates it if it doesn't exist."""
     mlflow.set_experiment(experiment_name)
@@ -26,6 +28,10 @@ def log_parameters(params_dict):
 def log_metrics(metrics_dict):
     """Logs evaluation metrics (Accuracy, Precision, Recall, F1)."""
     mlflow.log_metrics(metrics_dict)
+
+def log_artifact(local_path, artifact_path=None):
+    """Logs a local file or directory as an artifact in the current MLflow run."""
+    mlflow.log_artifact(local_path, artifact_path)
 
 def get_model_signature(X_train, model):
     """
@@ -78,7 +84,7 @@ def set_model_version_details(model_name, version, description):
         description=description
     )
 
-def evaluate_and_log_model(model, model_type, X_test, y_test, artifact_path="model_evaluation"):
+def evaluate_model(model, model_type, X_test, y_test):
     """Evaluates the trained model and returns a dictionary of metrics."""
 
     # Get the predictions
@@ -86,9 +92,9 @@ def evaluate_and_log_model(model, model_type, X_test, y_test, artifact_path="mod
 
     # Create a DataFrame for the evaluation
     eval_data = pd.DataFrame(y_pred, columns=['predictions'])
-    eval_data['targets'] = y_test
+    eval_data['targets'] = y_test.values
 
-    result = mlflow.evaluate(eval_data, model_type=model_type, predictions='predictions', targets='targets')
+    result = mlflow.evaluate(data=eval_data, model_type=model_type, predictions='predictions', targets='targets')
 
     return result.metrics
 

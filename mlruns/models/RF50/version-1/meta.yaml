@@ -1,0 +1,17 @@
+aliases:
+- Pre-Production
+creation_timestamp: 1771769946171
+current_stage: None
+description: This is version 1 of my random forest classifier with 50 estimators
+last_updated_timestamp: 1771769946234
+name: RF50
+run_id: 9b135397f522470b98a46d1fde2a7c83
+run_link: ''
+source: mlflow-artifacts:/584463973430175384/9b135397f522470b98a46d1fde2a7c83/artifacts/Random
+  Forest - 50
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/584463973430175384/9b135397f522470b98a46d1fde2a7c83/artifacts/Random
+  Forest - 50
+user_id: null
+version: 1
