@@ -1,0 +1,17 @@
+aliases:
+- Pre-Production
+creation_timestamp: 1771800302349
+current_stage: None
+description: This is version 1 of my random forest classifier with 100 estimators.
+last_updated_timestamp: 1771800302412
+name: RF100
+run_id: 9fa016a6076d43cb9ffea30731c89cf0
+run_link: ''
+source: mlflow-artifacts:/251002962293238749/9fa016a6076d43cb9ffea30731c89cf0/artifacts/Random
+  Forest - 100
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/251002962293238749/9fa016a6076d43cb9ffea30731c89cf0/artifacts/Random
+  Forest - 100
+user_id: null
+version: 1

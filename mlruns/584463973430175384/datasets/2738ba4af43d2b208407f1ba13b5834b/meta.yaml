@@ -1,8 +1,0 @@
-digest: a5c6a242
-name: dataset
-profile: '{"num_rows": 2568, "num_elements": 5136}'
-schema: '{"mlflow_colspec": [{"type": "string", "name": "predictions", "required":
-  true}, {"type": "string", "name": "targets", "required": true}]}'
-source: '{"tags": {"mlflow.user": "CARNIVAL", "mlflow.source.name": "c:\\Users\\CARNIVAL\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\ipykernel_launcher.py",
-  "mlflow.source.type": "LOCAL"}}'
-source_type: code

@@ -17,7 +17,12 @@ def start_run(run_name=None):
 def log_dataset(input, output, name, context):
     """Logs basic metadata about the landmarks dataset."""
     dataset = input.copy()
-    dataset['target'] = output.values
+
+    if type(output) == pd.Series().__class__:
+        dataset['target'] = output.values
+    else:
+        dataset['target'] = output
+        
     dataset = mlflow.data.from_pandas(dataset, targets='target', name=name) 
     mlflow.log_input(dataset, context=context)
 
@@ -92,7 +97,11 @@ def evaluate_model(model, model_type, X_test, y_test):
 
     # Create a DataFrame for the evaluation
     eval_data = pd.DataFrame(y_pred, columns=['predictions'])
-    eval_data['targets'] = y_test.values
+
+    if type(y_test) == pd.Series().__class__:
+        eval_data['targets'] = y_test.values
+    else:
+        eval_data['targets'] = y_test
 
     result = mlflow.evaluate(data=eval_data, model_type=model_type, predictions='predictions', targets='targets')
 

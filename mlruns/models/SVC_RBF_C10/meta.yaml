@@ -1,0 +1,6 @@
+aliases:
+  Production: '1'
+creation_timestamp: 1771800302118
+description: SVC with rbf kernel and C = 10.
+last_updated_timestamp: 1771800302226
+name: SVC_RBF_C10

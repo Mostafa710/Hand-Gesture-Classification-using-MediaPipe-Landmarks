@@ -1,0 +1,8 @@
+digest: b86cdd08
+name: dataset
+profile: '{"num_rows": 2568, "num_elements": 5136}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "predictions", "required": true},
+  {"type": "long", "name": "targets", "required": true}]}'
+source: '{"tags": {"mlflow.user": "CARNIVAL", "mlflow.source.name": "c:\\Users\\CARNIVAL\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

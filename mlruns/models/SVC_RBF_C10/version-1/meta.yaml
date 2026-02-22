@@ -1,0 +1,17 @@
+aliases:
+- Production
+creation_timestamp: 1771800302164
+current_stage: None
+description: This is version 1 of my SVC with rbf kernel and C = 10.
+last_updated_timestamp: 1771800302275
+name: SVC_RBF_C10
+run_id: 09b105af63ba4f9fa161abedff776341
+run_link: ''
+source: mlflow-artifacts:/251002962293238749/09b105af63ba4f9fa161abedff776341/artifacts/SVC
+  - RBF C10
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/251002962293238749/09b105af63ba4f9fa161abedff776341/artifacts/SVC
+  - RBF C10
+user_id: null
+version: 1
