@@ -135,12 +135,6 @@ python gesture_inference.py
 - Inference script is configured with `max_num_hands=1`.
 - Performance in real-world use depends on camera quality, lighting, and hand visibility.
 
-## Acknowledgments
-- [MediaPipe Hands](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker)
-- [MLflow](https://mlflow.org/)
-- [scikit-learn](https://scikit-learn.org/)
-- [XGBoost](https://xgboost.readthedocs.io/)
-
-## 📬 Contact
+## Contact
 For questions or collaboration, feel free to connect:
 [LinkedIn](https://www.linkedin.com/in/mostafa-mamdouh-80b110228)
