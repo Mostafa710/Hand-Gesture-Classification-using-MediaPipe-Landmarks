@@ -82,6 +82,14 @@ Classes include:
 | XGBoost (shallow) | 0.9696 | 0.9694 | 0.9699 | 0.9694 |
 | XGBoost (deep) | 0.9762 | 0.9765 | 0.9761 | 0.9762 |
 
+### Top 3 model types
+
+Based on the test-set comparison above, the strongest three model types in this project are:
+
+1. **SVC (RBF, C=10)** — best overall performance across metrics.
+2. **Random Forest (100 trees)** — strong and stable second-best performance.
+3. **XGBoost (deep)** — competitive third-best model with solid generalization.
+
 ## How to run this project locally
 
 ## 1) Clone and enter the project
