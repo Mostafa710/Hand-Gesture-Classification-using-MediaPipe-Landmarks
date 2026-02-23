@@ -7,3 +7,4 @@ scikit-learn==1.6.1
 scipy==1.14.0
 matplotlib==3.9.2
 xgboost=3.2.0
+mediapipe=0.10.21
