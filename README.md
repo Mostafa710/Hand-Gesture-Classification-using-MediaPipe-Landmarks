@@ -66,6 +66,22 @@ Classes include:
 | Comparing models | ![Comparing models](MLflow%20Screenshots/ComparingModels.png) |
 | Registered models | ![Registered models](MLflow%20Screenshots/RegisteredModels.png) |
 
+### Model performance comparison (Test set)
+
+> Metrics below are from the notebook test split, with macro-averaged Precision/Recall/F1.
+
+| Model | Accuracy | Precision | Recall | F1-score |
+|---|---:|---:|---:|---:|
+| Random Forest (20 trees) | 0.9712 | 0.9708 | 0.9708 | 0.9706 |
+| Random Forest (50 trees) | 0.9774 | 0.9765 | 0.9773 | 0.9767 |
+| Random Forest (100 trees) | 0.9794 | 0.9788 | 0.9793 | 0.9789 |
+| SVC (Linear, C=1) | 0.8497 | 0.8537 | 0.8537 | 0.8521 |
+| SVC (RBF, C=1) | 0.9844 | 0.9846 | 0.9838 | 0.9841 |
+| SVC (RBF, C=10) | 0.9883 | 0.9883 | 0.9877 | 0.9880 |
+| KNN (k=5) | 0.9747 | 0.9743 | 0.9739 | 0.9740 |
+| XGBoost (shallow) | 0.9696 | 0.9694 | 0.9699 | 0.9694 |
+| XGBoost (deep) | 0.9762 | 0.9765 | 0.9761 | 0.9762 |
+
 ## How to run this project locally
 
 ## 1) Clone and enter the project
