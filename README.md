@@ -128,6 +128,6 @@ pip install numpy pandas opencv-python mediapipe scikit-learn xgboost joblib mat
 - The inference script currently displays raw predicted class output directly from the loaded model.
 - For XGBoost inference, the saved bundle includes both model and label encoder (`{"model": ..., "encoder": ...}`).
 
-## License
-
-No license file is currently included in this repository. Add one (for example, MIT) if you plan to share or reuse this project publicly.
+## Contact
+For questions or collaboration, feel free to connect:
+[LinkedIn](https://www.linkedin.com/in/mostafa-mamdouh-80b110228)
