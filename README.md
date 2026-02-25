@@ -100,9 +100,9 @@ Press `q` to exit.
 
 ## Demo Video
 
-> Add your demo video link or embedded media here.
+> [Demo](https://github.com/user-attachments/assets/cee3a19b-db62-4ad8-a45b-781e6920cfd4)
 
-- **Demo:** https://github.com/user-attachments/assets/cee3a19b-db62-4ad8-a45b-781e6920cfd4
+- **Demo:** _TBD_
 - **Description:** Short walkthrough showing hand gesture detection and real-time predictions.
 
 ## Installation
